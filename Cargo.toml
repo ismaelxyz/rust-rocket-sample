@@ -1,11 +1,11 @@
 [package]
-name = "rust-rocket-sample"
-description = "Rocket.rs CRUD REST API example"
+name = "mobex-backend"
+description = "Backend for Mobex Game"
 version = "1.3.1"
 edition = "2021"
-authors = ["TaeyoonKwon <tabriell@gmail.com>", "Ismael Belisario <ismaelbeli.com@gmail.com>"]
+authors = ["Ismael Belisario <ismaelbeli.com@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/ismaelxyz/rust-rocket-sample"
+repository = "https://github.com/ismaelxyz/mobex"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -31,8 +31,8 @@ version = "0.8.0"
 features = ["swagger", "secrets"]
 
 [dependencies.mongodb]
-version = "2.8.2"
-features = ["bson-chrono-0_4"]
+version = "3.0.1"
+#features = ["bson-chrono-0_4"]
 
 [dependencies.bson]
 version = "2.10.0"
